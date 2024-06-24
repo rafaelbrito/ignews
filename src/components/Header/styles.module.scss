@@ -26,7 +26,7 @@
 
             transition: color 0.2s;
 
-            & + a{
+            &+a {
                 margin-left: 2rem;
             }
 
@@ -34,8 +34,8 @@
                 color: var(--white);
             }
 
-            &.active{
-                color:var(--white);
+            &.active {
+                color: var(--white);
                 font-weight: bold;
             }
 
@@ -51,5 +51,9 @@
 
             }
         }
+    }
+
+    button {
+        margin-left: auto;
     }
 }
